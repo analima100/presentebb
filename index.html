@@ -7,7 +7,6 @@
 
 <link rel="stylesheet" href="style.css">
 
-<!-- BOOTSTRAP -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <title>Eu te amo²</title>
@@ -24,7 +23,6 @@ window.location.href = "login.html"
 
 </script>
 
-<!-- MENU -->
 <div class="sidebar">
 
 <div class="logo">
@@ -39,7 +37,6 @@ window.location.href = "login.html"
 
 </div>
 
-<!-- TELA INICIO -->
 <section id="inicio" class="tela ativa">
 
 <div class="container">
@@ -70,8 +67,6 @@ window.location.href = "login.html"
 
 </section>
 
-
-<!-- TELA FRASES -->
 <section id="frases" class="tela rolagem">
 
 <div class="container">
@@ -123,8 +118,6 @@ Com amor, princesa.<br>
 
 </section>
 
-
-<!-- TELA CARTA -->
 <section id="carta" class="tela rolagem">
 
 <div class="container">
@@ -161,10 +154,10 @@ tudo isso faz meu coração ficar leve e quentinho.
 Existe uma frase de <i>Diário de uma Paixão</i> que sempre achei tão fofa e linda:
 </p>
 
-<h5>
+<p>
 “O melhor amor é aquele que sempre podemos despertar e enriquecê-lo cada vez mais,
 ele que acende o fogo em nossos corações e nos tranquiliza a mente.”
-</h5>
+</p>
 
 <p>
 Quando penso na gente, sinto exatamente isso.
@@ -188,10 +181,7 @@ Com amor, princesa.<br>
 
 </section>
 
-
 <script>
-
-/* BOTÕES */
 
 const sim = document.getElementById("sim")
 const nao = document.getElementById("nao")
@@ -228,8 +218,6 @@ audio.play()
 
 }
 
-/* NAVEGAÇÃO */
-
 const links = document.querySelectorAll(".sidebar a")
 const telas = document.querySelectorAll(".tela")
 
@@ -251,8 +239,6 @@ document.querySelector(destino).classList.add("ativa")
 
 })
 
-/* SAIR */
-
 const sair = document.getElementById("sair")
 
 if(sair){
@@ -269,4 +255,5 @@ window.location.href = "login.html"
 </script>
 
 </body>
+
 </html>
